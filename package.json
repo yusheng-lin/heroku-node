@@ -3,11 +3,11 @@
   "version": "0.2.5",
   "description": "A sample Node.js app using Express 4",
   "engines": {
-    "node": "5.9.1"
+    "node": "6.4.0"
   },
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "ejs": "2.4.1",
