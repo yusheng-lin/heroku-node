@@ -6,7 +6,7 @@ exports.create = function(blog){
 };
 
 exports.find = function(query){
-  return Blog.find(query);
+  return Blog.find(query).select('categories title');
 };
 
 exports.findById = function(id){
