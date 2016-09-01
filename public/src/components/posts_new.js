@@ -1,7 +1,7 @@
 import React,{ Component } from 'react';
 import { connect } from 'react-redux';
 import { createPost } from '../actions/index';
-import {} from 'redux-form';
+import { reduxform} from 'redux-form';
 
 class PostsNew extends Component{
 
